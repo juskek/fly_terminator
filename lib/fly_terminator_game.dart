@@ -55,5 +55,10 @@ class FlyTerminator extends Game with TapDetector {
         fly.onTapDown();
       }
     });
+    // for (int i = 0; i < flies!.length; i++) {
+    //   if (flies![i].flyRect!.contains(tapDownDetails.globalPosition)) {
+    //     flies![i].onTapDown();
+    //   }
+    // }
   }
 }
